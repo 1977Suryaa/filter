@@ -1,0 +1,25 @@
+canvas{
+    margin-top: 50px;
+    animation-name:box_animation ;
+    animation-duration:6s ;
+    animation-iteration-count: infinite;
+}
+@keyframes box_animation{
+    0%{
+        box-shadow: 1px 1px 20px rgb(25, 0, 247);
+    }
+    25%{
+        box-shadow: 1px 1px 20px rgb(255, 242, 64);
+    }
+    50%{
+        box-shadow: 1px 1px 20px rgb(21, 255, 0);
+    }
+    75%{
+        box-shadow: 1px 1px 20px rgb(140, 0, 255);
+    }
+    100%{
+        box-shadow: 1px 1px 20px rgb(200, 255, 0);}
+    }
+    body{
+        background-image:url("100.jpg");
+    }
